@@ -10,6 +10,9 @@ The purpose of this analysis is to refactor the code previously used to analyze 
 
 ## Results
 The pictures below are screenshots from  below shows the reults for the first
+###### Original Code
+
+...
 
 Sub AllStocksAnalysis()
 
