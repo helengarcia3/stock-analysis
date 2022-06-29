@@ -86,56 +86,56 @@ Sub AllStocksAnalysis()
        Cells(4 + i, 2).Value = totalVolume
        Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
 
-   Next i
+     Next i
 
 
-    'Formatting
-    Worksheets("All Stocks Analysis").Activate
-    Range("A3:C3").Font.FontStyle = "Bold"
-    Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
-    Range("B4:B15").NumberFormat = "#,##0"
-    Range("C4:C15").NumberFormat = "0.0%"
-    Columns("B").AutoFit
-    
-    dataRowStart = 4
-    
-    dataRowEnd = 15
-    
-    For i = dataRowStart To dataRowEnd
-    
-    If Cells(i, 3) > 0 Then
-    
-        'Color the cell green
-    
-        Cells(i, 3).Interior.Color = vbGreen
-        
+        'Formatting
+        Worksheets("All Stocks Analysis").Activate
+        Range("A3:C3").Font.FontStyle = "Bold"
+        Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
+        Range("B4:B15").NumberFormat = "#,##0"
+        Range("C4:C15").NumberFormat = "0.0%"
+        Columns("B").AutoFit
 
-    ElseIf Cells(i, 3) < 0 Then
-    
-        'Color the cell red
-        
-        Cells(i, 3).Interior.Color = vbRed
-        
-    Else
-    
-        'Clear the cell color
-    
-        Cells(i, 3).Interior.Color = xlNone
-        
-    End If
-    
-Next i
+        dataRowStart = 4
 
-  endTime = Timer
-        MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
-        
-End Sub
+        dataRowEnd = 15
 
-<img width="224" alt="VBA_Challenge_2017 - original code" src="https://user-images.githubusercontent.com/107590196/176432839-455243e2-c67b-41ca-b088-cd40d867063e.png">
+        For i = dataRowStart To dataRowEnd
 
-<img width="251" alt="VBA_Challenge_2018 - original code" src="https://user-images.githubusercontent.com/107590196/176432846-a71c1765-b30a-4b2a-8b65-f49d3412158a.png">
+        If Cells(i, 3) > 0 Then
 
-ro for running year 2017. The Macro ran in .2988 seconds.
+            'Color the cell green
+
+            Cells(i, 3).Interior.Color = vbGreen
+
+
+        ElseIf Cells(i, 3) < 0 Then
+
+            'Color the cell red
+
+            Cells(i, 3).Interior.Color = vbRed
+
+        Else
+
+            'Clear the cell color
+
+            Cells(i, 3).Interior.Color = xlNone
+
+        End If
+
+    Next i
+
+      endTime = Timer
+            MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
+
+    End Sub
+
+    <img width="224" alt="VBA_Challenge_2017 - original code" src="https://user-images.githubusercontent.com/107590196/176432839-455243e2-c67b-41ca-b088-cd40d867063e.png">
+
+    <img width="251" alt="VBA_Challenge_2018 - original code" src="https://user-images.githubusercontent.com/107590196/176432846-a71c1765-b30a-4b2a-8b65-f49d3412158a.png">
+
+    ro for running year 2017. The Macro ran in .2988 seconds.
 
 ## Summary
 
