@@ -1,11 +1,11 @@
 # stock-analysis
-##Overview
-#####Purpose
+## Overview
+##### Purpose
 
-######Background
+##### Background
 
-##Results
+## Results
 
-##Summary
-#####Advantages
-#####Disadvantages
+## Summary
+##### Advantages
+##### Disadvantages
