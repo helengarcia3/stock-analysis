@@ -9,7 +9,8 @@ In Module 2, we created a workbook to help Steve analyze stock data for his pare
 The purpose of this analysis is to refactor the code previously used to analyze the data and to run the same information in a more efficient way. 
 
 ## Results
-The pictures below are screenshots from  below shows the reults for the first
+The pictures below are screenshots from  below shows the reults for the first Macro for running year 2017. The Macro ran in .2988 seconds.
+
 ###### Original Code
 
 ...
@@ -131,8 +132,9 @@ Sub AllStocksAnalysis()
 
     End Sub
 
+    ...
+    
 
-    ro for running year 2017. The Macro ran in .2988 seconds.
 
 ## Summary
 
