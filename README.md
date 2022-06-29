@@ -131,9 +131,6 @@ Sub AllStocksAnalysis()
 
     End Sub
 
-    <img width="224" alt="VBA_Challenge_2017 - original code" src="https://user-images.githubusercontent.com/107590196/176432839-455243e2-c67b-41ca-b088-cd40d867063e.png">
-
-    <img width="251" alt="VBA_Challenge_2018 - original code" src="https://user-images.githubusercontent.com/107590196/176432846-a71c1765-b30a-4b2a-8b65-f49d3412158a.png">
 
     ro for running year 2017. The Macro ran in .2988 seconds.
 
