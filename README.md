@@ -4,7 +4,7 @@
 
 ##### Background
 
-In Module 2, we created a workbook to help Steve analyze stock data for his parents. He is now able to run analysis with the push of a button to show a summary of the tickers by volume and total return percent. 
+Steve is trying to help his parents make financial decisions In Module 2, we created a workbook to help Steve analyze stock data for his parents. He is now able to run an analysis with the push of a macro button that show a summary of the tickers by volume and total return percent. 
 
 ##### Purpose
 
@@ -19,9 +19,6 @@ The original code for module 2 is below. The pictures below are screenshots of t
 <img width="224" alt="VBA_Challenge_2017 - original code" src="https://user-images.githubusercontent.com/107590196/176442400-c576a050-9739-48b6-a6ac-ab0ca7b5b078.png">
 
 <img width="251" alt="VBA_Challenge_2018 - original code" src="https://user-images.githubusercontent.com/107590196/176442415-47b79d48-46b6-4a69-8ed2-0946516727bc.png">
-
-
-
 
 
     Sub AllStocksAnalysis()
@@ -146,7 +143,7 @@ The original code for module 2 is below. The pictures below are screenshots of t
 
 ###### Refactored Code
 
-I was able to create a refactored code and run it successfully. The new code cut down the run time significantly by two-thirds down to .09375 for both 2017 an 2018.
+I was able to create a refactored code and run it successfully. The new code cut down the run time significantly by two-thirds down to .09375 for both 2017 an 2018. The screenshots fromm the workbook and the code to run the macro are provided below.
 
 <img width="224" alt="VBA_Challenge_2017 - original code" src="https://user-images.githubusercontent.com/107590196/176444099-6a36c988-4f2f-4262-bf20-8fb90d12dfa0.png">
 
@@ -278,8 +275,18 @@ I was able to create a refactored code and run it successfully. The new code cut
 
 ## Summary
 
-##### Advantages
+##### Refactoring Code
 
-##### Disadvantages
+The advantages for refactoring code in general is the opportunity to make it run more efficiently and look a lot cleaner. It can also be capable of handling more data as the data set grows.
+
+The disadvantage of refactoring code is that it can be complicated to clean it up and many things could go wrong in the process. 
+
+##### Original Code v. Refactored Code
+
+The advantage of refactoring the code  in this work book is that it ran faster and looks cleaner.  As shown in the analysis, the refactored code cut down the execution time by two thirds. In this small amount of data it doesn't make too much of a difference but if Steve was analyzing more year and more stocks, then the execution time would make a difference in how he conducted his analysis.
+
+The disadvantages of the refactored code is that it can be complicated and time consuming to change the code to make it more efficient. This process took a lot of trail and error to get the code to run with out any errors.
+
+
 
 
